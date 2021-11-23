@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://gyor2121jedlik.gatsbyjs.io/",
     title: "Gyor-2121-Jedlik",
   },
   plugins: [
