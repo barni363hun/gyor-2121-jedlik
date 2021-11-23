@@ -1,6 +1,10 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://gyor2121jedlik.gatsbyjs.io/",
+    siteUrl: process.env.WEB_URL,
     title: "Gyor-2121-Jedlik",
   },
   plugins: [
@@ -29,6 +33,41 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/locales`,
+        name: `locale`,
+      },
+      __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`,
+        languages: [`en`, `hu`, `al`],
+        defaultLanguage: `en`,
+        siteUrl: process.env.WEB_URL,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false,
+          },
+          keySeparator: false,
+          nsSeparator: false,
+        },
+        pages: [
+          {
+            matchPath: "/:lang?/blog/:uid",
+            getLanguageFromPath: true,
+            excludeLanguages: ["es"],
+          },
+          {
+            matchPath: "/preview",
+            languages: ["en"],
+          },
+        ],
+      },
     },
   ],
 };

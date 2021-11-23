@@ -11,6 +11,7 @@ const IndexPage = () => {
       <img src="https://i.ibb.co/grXGxBw/new-gyor-logo.png" alt="gyor" />
       <StaticImage src="../images/icon.png" alt="icon" placeholder="blurred" />
       <Button>asddsfa</Button>
+      <a href={process.env.WEB_URL}>this site</a>
     </Layout>
   );
 };
