@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../components/Navbar";
 import "../styles/global.scss";
 
 export default function Layout({ children }) {
+  const [lang, setLang] = useState("en");
+
+  function setLanguage(lang) {
+    setLang(lang);
+  }
+
   return (
     <div>
-      <NavBar />
-      <div className="content">{children}</div>
-      <footer>Made by Princzes Barnabás</footer>
+      <NavBar Lang={lang} setLang={setLanguage()} />
+      <div Lang={lang} className="content">
+        {children}
+      </div>
+      <footer>{lang} Made by Princzes Barnabás</footer>
     </div>
   );
 }
