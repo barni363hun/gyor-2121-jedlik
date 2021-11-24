@@ -1,6 +1,7 @@
 import * as React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout";
+import { withTranslation } from "react-i18next";
 
 const IndexPage = () => {
   return (
