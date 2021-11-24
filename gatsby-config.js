@@ -34,11 +34,12 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-transformer-json",
     {
-      resolve: `gatsby-theme-i18n`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        defaultLang: `en`,
-        configPath: require.resolve(`./i18n/config.json`),
+        name: `i18n`,
+        path: `${__dirname}/i18n`,
       },
     },
   ],
