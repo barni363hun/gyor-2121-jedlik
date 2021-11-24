@@ -40,6 +40,7 @@ export default function NavBar() {
                   <UpcScan /> <Translate />
                 </NavDropdown.Item>
               </NavDropdown>
+              <Button onClick={setLang("hu")}>hu</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
