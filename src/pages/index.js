@@ -7,12 +7,8 @@ import Layout from "../components/Layout";
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>Helloooo</h1>
-      <img src="https://i.ibb.co/grXGxBw/new-gyor-logo.png" alt="gyor" />
-      <StaticImage src="../images/icon.png" alt="icon" placeholder="blurred" />
-      <Link to="./hu">magyarrr</Link>
-      <a href={process.env.WEB_URL}></a>
-      <p>Used lang:</p>
+      <h1>heloo world!</h1>
+      <p>{process.env.WEB_URL}</p>
     </Layout>
   );
 };
