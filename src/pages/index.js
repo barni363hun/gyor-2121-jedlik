@@ -1,6 +1,4 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
-import Link from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout";
 import GYOR2121 from "../images/GYOR2121.mp4";

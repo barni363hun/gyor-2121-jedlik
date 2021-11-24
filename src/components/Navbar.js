@@ -28,7 +28,9 @@ export default function NavBar() {
               <Nav.Link className="myMenuPoint">
                 <Link to="/article">Article</Link>
               </Nav.Link>
-              <Nav.Link className="myMenuPoint">Map</Nav.Link>
+              <Nav.Link className="myMenuPoint">
+                <Link to="/map">Map</Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown title="Language" id="basic-nav-dropdown">
