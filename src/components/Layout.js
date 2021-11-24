@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "../components/Navbar";
 import "../styles/global.scss";
-import { GetLang } from "./Languages";
 
 export default function Layout({ children }) {
   return (
