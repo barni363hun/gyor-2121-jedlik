@@ -1,6 +1,54 @@
+@font-face {
+    font-family: 'Alien';
+    src: url("./alien.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exodar';
+    src: url("./Exodar.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'PFW';
+    src: url("./ProFontWindows.ttf") format('truetype');
+}
+
+body{
+    font-family:"PFW";
+}
+
 *{
     border: 1px green solid;
+
+  
+    .navbar{
+        font-family:"Exodar";
+        font-weight: bold;
+        letter-spacing: 0.3em;
+        font-size: larger;
+    }
     h1{
         color: red;
+    }
+    .brandImage{
+        height: 4em;
+    }
+    .myCenter{
+        display: flex;
+        align-items: center;
+    }
+    .alien{
+        font-family: 'Alien';
+    }
+    .myTitle {
+        margin-left: 2rem;
+        font-size: xx-large;
+        font-style: normal;
+        text-decoration: none;
+        color: #376EB3;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.5) ;
+    }
+    .myMenuPoint{
+        padding-right: 2rem !important;
     }
 }

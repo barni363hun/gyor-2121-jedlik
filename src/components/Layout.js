@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     <div>
       <NavBar />
       <div className="content">{children}</div>
-      <footer>Made by Princzes Barnabás</footer>
     </div>
   );
 }
