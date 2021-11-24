@@ -1,9 +1,11 @@
 import * as React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout";
-import { withTranslation } from "react-i18next";
+import { useLocalization } from "gatsby-theme-i18n";
 
 const IndexPage = () => {
+  const { locale, config, defaultLang } = useLocalization();
+
   return (
     <Layout>
       <h1>heloo world!</h1>
