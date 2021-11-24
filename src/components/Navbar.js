@@ -25,7 +25,9 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto ms-auto">
-              <Nav.Link className="myMenuPoint">Article</Nav.Link>
+              <Nav.Link className="myMenuPoint">
+                <Link to="/article">Article</Link>
+              </Nav.Link>
               <Nav.Link className="myMenuPoint">Map</Nav.Link>
             </Nav>
             <Nav>
