@@ -1,6 +1,10 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://gyor2121jedlik.gatsbyjs.io/",
+    siteUrl: `${process.env.WEB_URL}`,
     title: "Gyor-2121-Jedlik",
   },
   plugins: [
