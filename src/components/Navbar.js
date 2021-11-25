@@ -8,7 +8,7 @@ import { Translate } from "react-bootstrap-icons";
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" expand="lg">
         <Container>
           <Navbar.Brand className="p-0">
             <div className="myCenter">
@@ -33,7 +33,11 @@ export default function NavBar() {
               </Nav.Link>
             </Nav>
             <Nav>
-              <NavDropdown title="Language" id="basic-nav-dropdown">
+              <NavDropdown
+                className="myDropDownText"
+                title="Language"
+                id="basic-nav-dropdown bg-dark"
+              >
                 <NavDropdown.Item>Human</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item className="alien">
