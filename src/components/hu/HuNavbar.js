@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "gatsby";
-import NewLogoImg from "../images/new_gyor_logo_big.png";
+import NewLogoImg from "../../images/new_gyor_logo_big.png";
 import { UpcScan } from "react-bootstrap-icons";
 import { Translate } from "react-bootstrap-icons";
 
-export default function NavBar() {
+export default function HuNavBar() {
   return (
     <>
       <Navbar bg="dark" className="navbar-dark" expand="md">
@@ -17,7 +17,7 @@ export default function NavBar() {
                 src={NewLogoImg}
                 alt="New_Logo"
               />
-              <Link to="/" className="myTitle">
+              <Link to="/hu" className="myTitle">
                 Gyõr
               </Link>
             </div>
@@ -26,22 +26,22 @@ export default function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto ms-auto">
               <Nav.Link className="myMenuPoint">
-                <Link to="/article">Article</Link>
+                <Link to="/hu/article">Cikk</Link>
               </Nav.Link>
               <Nav.Link className="myMenuPoint">
-                <Link to="/map">Map</Link>
+                <Link to="/hu/map">Térkép</Link>
               </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown
                 className="myDropDownText"
-                title="Language"
+                title="Nyelv"
                 id="basic-nav-dropdown bg-dark"
               >
                 <NavDropdown.Item
                   onClick={() => (document.body.style.fontFamily = "PFW")}
                 >
-                  Human
+                  <Link to="/">Ember</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item
@@ -54,9 +54,7 @@ export default function NavBar() {
                   className="h4"
                   onClick={() => (document.body.style.fontFamily = "PFW")}
                 >
-                  <Link to="/hu">
-                    <UpcScan /> <Translate />
-                  </Link>
+                  <UpcScan /> <Translate />
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

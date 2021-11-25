@@ -1,14 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Layout from "../components/Layout";
-import GYOR2121 from "../images/GYOR2121.mp4";
+import HuLayout from "../../components/hu/HuLayout";
+import GYOR2121 from "../../images/GYOR2121.mp4";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import HuIndexPage from "./hu";
 
-const IndexPage = () => {
+const HuIndexPage = () => {
   return (
-    <Layout>
+    <HuLayout>
       <Container>
         <Row className="text-center">
           <h1>hello world!</h1>
@@ -20,8 +19,8 @@ const IndexPage = () => {
           </video>
         </Row>
       </Container>
-    </Layout>
+    </HuLayout>
   );
 };
 
-export default IndexPage;
+export default HuIndexPage;
