@@ -54,7 +54,7 @@ export default function NavBar() {
                   className="h4"
                   onClick={() => (document.body.style.fontFamily = "PFW")}
                 >
-                  <Link to="/hu">
+                  <Link to="/LoadLang">
                     <UpcScan /> <Translate />
                   </Link>
                 </NavDropdown.Item>

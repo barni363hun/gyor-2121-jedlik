@@ -66,7 +66,7 @@ const MapPage = () => {
     <HuLayout>
       <Container>
         <Row className="m-2 text-center">
-          <h2>What is it like to live in our city?</h2>
+          <h2>Ismerd meg milyen a városunkban élni!</h2>
         </Row>
         <Row>
           <Col md="auto" className="m-2 d-flex justify-content-center">

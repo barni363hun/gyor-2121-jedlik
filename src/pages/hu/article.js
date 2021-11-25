@@ -10,7 +10,7 @@ const ArticlePage = () => {
     <HuLayout>
       <Container>
         <Row className="text-center">
-          <h2>Győr is waiting for you!</h2>
+          <h2>Győr rád vár!</h2>
         </Row>
         <Row>
           <Col>

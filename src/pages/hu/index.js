@@ -10,7 +10,7 @@ const HuIndexPage = () => {
     <HuLayout>
       <Container>
         <Row className="text-center">
-          <h1>hello world!</h1>
+          <h1>Heló Világ!</h1>
         </Row>
         {/* <p>{process.env.WEB_URL}</p> */}
         <Row className="d-flex justify-content-center">
