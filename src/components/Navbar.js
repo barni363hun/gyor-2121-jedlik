@@ -8,7 +8,7 @@ import { Translate } from "react-bootstrap-icons";
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="dark" className="navbar-dark" expand="md">
         <Container>
           <Navbar.Brand className="p-0">
             <div className="myCenter">
@@ -38,9 +38,16 @@ export default function NavBar() {
                 title="Language"
                 id="basic-nav-dropdown bg-dark"
               >
-                <NavDropdown.Item>Human</NavDropdown.Item>
+                <NavDropdown.Item
+                  onClick={() => (document.body.style.fontFamily = "PFW")}
+                >
+                  Human
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item className="alien">
+                <NavDropdown.Item
+                  className="alien"
+                  onClick={() => (document.body.style.fontFamily = "Alien")}
+                >
                   Lorem, ipsum.
                 </NavDropdown.Item>
                 <NavDropdown.Item>Latine</NavDropdown.Item>
