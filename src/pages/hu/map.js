@@ -91,7 +91,7 @@ const MapPage = () => {
             <p>{getDesc()}</p>
           </Col>
           <Col className="p-0">
-            <a
+            {/* <a
               target="_blank"
               href={
                 process.env.WEB_URL +
@@ -168,7 +168,7 @@ const MapPage = () => {
                 className={getDisp(6) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
-            </a>
+            </a> */}
           </Col>
           <Col className="p-0">
             <StaticImage
