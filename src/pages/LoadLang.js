@@ -26,7 +26,6 @@ const LoadLang = () => {
             className="illu"
             src={illusion}
             alt="look at the center to help us read your language"
-            placeholder="blurred"
           ></img>
         </Row>
         <Row className="myRow">

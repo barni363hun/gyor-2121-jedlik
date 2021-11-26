@@ -6,6 +6,18 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Bezier2 } from "react-bootstrap-icons";
+import CityPic1 from "../../images/CityImg/Pic1.jpg";
+import CityPic2 from "../../images/CityImg/Pic2.jpg";
+import CityPic3 from "../../images/CityImg/Pic3.jpg";
+import CityPic4 from "../../images/CityImg/Pic4.jpg";
+import CityPic5 from "../../images/CityImg/Pic5.jpg";
+import CityPic6 from "../../images/CityImg/Pic6.png";
+import MapPic1 from "../../images/CityMap/Pic1.png";
+import MapPic2 from "../../images/CityMap/Pic2.png";
+import MapPic3 from "../../images/CityMap/Pic3.png";
+import MapPic4 from "../../images/CityMap/Pic4.png";
+import MapPic5 from "../../images/CityMap/Pic5.png";
+import MapPic6 from "../../images/CityMap/Pic6.png";
 
 const MapPage = () => {
   const [place, setPlace] = useState(1);
@@ -91,15 +103,15 @@ const MapPage = () => {
             <p>{getDesc()}</p>
           </Col>
           <Col className="p-0">
-            <a
+            {/* <a
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/f2760f52af41cab289a467ee500f2e29/f1ed6/Pic1.webp"
+                "static/f2760f52af41cab289a467ee500f2e29/f1ed6/Pic1.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic1.jpg"
+                src={CityPic1}
                 className={getDisp(1) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
@@ -108,11 +120,11 @@ const MapPage = () => {
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/f7055390ea1d0bc983d516a581cf1125/58b9f/Pic2.webp"
+                "static/f7055390ea1d0bc983d516a581cf1125/58b9f/Pic2.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic2.jpg"
+                src={CityPic2}
                 className={getDisp(2) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
@@ -121,11 +133,11 @@ const MapPage = () => {
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/7b19345a0aa48b68cd20e048fc9bea31/58556/Pic3.webp"
+                "static/7b19345a0aa48b68cd20e048fc9bea31/58556/Pic3.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic3.jpg"
+                src={CityPic3}
                 className={getDisp(3) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
@@ -134,11 +146,11 @@ const MapPage = () => {
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/c4bdf8678dc21625b114a37cb7e495e5/58b9f/Pic4.webp"
+                "static/c4bdf8678dc21625b114a37cb7e495e5/58b9f/Pic4.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic4.jpg"
+                src={CityPic4}
                 className={getDisp(4) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
@@ -147,11 +159,11 @@ const MapPage = () => {
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/2bdbf8d5c9be0e652b7e05a6061eec45/f95b2/Pic5.webp"
+                "static/2bdbf8d5c9be0e652b7e05a6061eec45/f95b2/Pic5.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic5.jpg"
+                src={CityPic5}
                 className={getDisp(5) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
@@ -160,15 +172,15 @@ const MapPage = () => {
               target="_blank"
               href={
                 process.env.WEB_URL +
-                "/static/1647e2c95250f18e18c47431e836c265/67b0d/Pic6.webp"
+                "static/1647e2c95250f18e18c47431e836c265/67b0d/Pic6.webp"
               }
             >
               <StaticImage
-                src="../../images/CityImg/Pic6.png"
+                src={CityPic6}
                 className={getDisp(6) + " CityImg"}
                 placeholder="blurred"
               ></StaticImage>
-            </a>
+            </a> */}
           </Col>
           <Col className="p-0">
             <StaticImage
