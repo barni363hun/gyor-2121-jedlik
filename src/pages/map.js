@@ -48,21 +48,21 @@ const MapPage = () => {
   function getDesc() {
     switch (place) {
       case 1:
-        return " aieofhaéosdifalweh féaeahef asdéfkj aéenfla éwefé awef éaweéfjéaw eflasdlf jéajewf";
+        return "Enjoy the shores of the 100% Danube with little dirt and no more dirt. Relax with family and friends.";
       case 2:
-        return "dsa";
+        return "Walking is obsolete, the mode of transport in the 22nd century is primarily by bicycle. Take advantage of our eco-friendly and ultra-modern holographic bike paths.";
       case 3:
-        return "dsa";
+        return "Get anywhere in the confederation on the CyberTrain superhighway. Get there sooner than you plan.";
       case 4:
-        return "dsa";
+        return "Walk around our re-landscaped central pedestrian street and feel the closeness to nature.";
       case 5:
-        return "dsa";
+        return "Thanks to our latest multi-matrix quays, it is suitable for the migration of shipments from any gradient of the river.";
       case 6:
-        return "dsa";
+        return "Taking advantage of the Hilbert Grand Hotel paradox in the city center, the Matthias Hotel has endless rooms, endless floors and plenty of entertainment options. The area is renowned for its luxurious nightlife and huge gigantic parties.";
       case 7:
-        return "dsa";
+        return "Jedlik takes advantage of economic recursivity in 2030 to export AUDI Győr to the Intergalactic Training Board";
       default:
-        return "something";
+        return "something something something";
     }
   }
 
@@ -173,7 +173,13 @@ const MapPage = () => {
                 placeholder="blurred"
               ></StaticImage>
             </a>
-            <a target="_blank" href={process.env.WEB_URL + ""}>
+            <a
+              target="_blank"
+              href={
+                process.env.WEB_URL +
+                "/static/200d550d7583ad6ddb05d16b8611ffae/c512e/Pic7.webp"
+              }
+            >
               <StaticImage
                 src="../images/CityImg/Pic7.jpg"
                 className={getDisp(7) + " CityImg"}

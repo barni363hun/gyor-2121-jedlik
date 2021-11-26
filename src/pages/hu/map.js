@@ -28,41 +28,41 @@ const MapPage = () => {
   function getTitle() {
     switch (place) {
       case 1:
-        return "A relaxing walk on the riverside";
+        return "Egy nyugtató séta a folyóparton";
       case 2:
-        return "Cycling along the Raab";
+        return "Biciklizés a rába mentén";
       case 3:
-        return "CyberTrain lines through the city";
+        return "CyberTrain vonalak a városban";
       case 4:
-        return "The St. Imre Pedestrian Street";
+        return "A Szent Imre sétáló utca";
       case 5:
-        return "A side view of Móricz Zsigmond quay";
+        return "Oldalnézet a Móricz zsigmond rakparton";
       case 6:
-        return "Matias hotel and the Baross street at night";
+        return "A Mátyás hotel és az éjszakai Baross út";
       case 7:
-        return "The beautiful Jedlik education center";
+        return "A Jedlik oktatási centrum";
       default:
-        return "A relaxing walk on the riverside";
+        return "Gyönyörű városunk";
     }
   }
   function getDesc() {
     switch (place) {
       case 1:
-        return "something";
+        return "Élvezze a 100%-ban duna partvidékét kevés mocsokkal és annál több nem mocsokkal. Kapcsolódjon ki családjaival és barátjával.";
       case 2:
-        return "dsa";
+        return "A séta elavult, a közlekedés 22. századi módja elsődlegesen a kerékpár. Vegye használatba a környezetbarát és ultramodern holografikus kerékpárutjainkat.";
       case 3:
-        return "dsa";
+        return "Jusson el a konföderáció bármely pontjára a CyberTrain szupersztrádán. Érjen oda bárhova hamarabb mint azt eltervezné!";
       case 4:
-        return "dsa";
+        return "Járja be az újraparkosított köponti sétáló utcánkat és érezze a természet közelségét.";
       case 5:
-        return "dsa";
+        return "A legújabb többmátrixú rakpartjaink köszönhetően a folyó bármely gradienséből alkalmas a szállítmányok migrálására.";
       case 6:
-        return "dsa";
+        return "A Mátyás hotel a város központjában a Hilbert Grand Hotel-paradoxon kihasználásával végtelen szobával rendelkezik, végtelen emelettel és rengeteg szórakozási lehetőséggel. A környék neves a fényűző éjszakai életéről és hatalmas gigapartyjairól.";
       case 7:
-        return "dsa";
+        return "A Jedlik a 2030-as gazdasági rekurzivitást kihasználva az AUDI Győr-t átexportálta az Intergalaktikus képzőtáblába";
       default:
-        return "something";
+        return "Minden jó.";
     }
   }
 
@@ -173,7 +173,13 @@ const MapPage = () => {
                 placeholder="blurred"
               ></StaticImage>
             </a>
-            <a target="_blank" href={process.env.WEB_URL + ""}>
+            <a
+              target="_blank"
+              href={
+                process.env.WEB_URL +
+                "/static/200d550d7583ad6ddb05d16b8611ffae/c512e/Pic7.webp"
+              }
+            >
               <StaticImage
                 src="../../images/CityImg/Pic7.jpg"
                 className={getDisp(7) + " CityImg"}
