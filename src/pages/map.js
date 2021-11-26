@@ -7,12 +7,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Bezier2 } from "react-bootstrap-icons";
 
-// import MapPic1 from "../images/CityMap/Pic1.jpg";
-// import MapPic2 from "../images/CityMap/Pic2.jpg";
-// import MapPic3 from "../images/CityMap/Pic3.jpg";
-// import MapPic4 from "../images/CityMap/Pic4.jpg";
-// import MapPic5 from "../images/CityMap/Pic5.jpg";
-
 const MapPage = () => {
   const [place, setPlace] = useState(1);
 
@@ -178,32 +172,32 @@ const MapPage = () => {
           </Col>
           <Col className="p-0">
             <StaticImage
-              src="../images/CityMap/Pic1.png"
+              src="../images/MPic1.png"
               className={getDisp(1) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
             <StaticImage
-              src="../images/CityMap/Pic2.png"
+              src="../images/MPic2.png"
               className={getDisp(2) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
             <StaticImage
-              src="../images/CityMap/Pic3.png"
+              src="../images/MPic3.png"
               className={getDisp(3) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
             <StaticImage
-              src="../images/CityMap/Pic4.png"
+              src="../images/MPic4.png"
               className={getDisp(4) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
             <StaticImage
-              src="../images/CityMap/Pic5.png"
+              src="../images/MPic5.png"
               className={getDisp(5) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
             <StaticImage
-              src="../images/CityMap/Pic6.png"
+              src="../images/MPic6.png"
               className={getDisp(6) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
