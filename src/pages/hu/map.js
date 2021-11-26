@@ -87,7 +87,7 @@ const MapPage = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md="auto" className="me-5">
             <p>{getDesc()}</p>
           </Col>
           <Col className="p-0">

@@ -46,7 +46,7 @@ const MapPage = () => {
   function getDesc() {
     switch (place) {
       case 1:
-        return "something";
+        return " aieofhaéosdifalweh féaeahef asdéfkj aéenfla éwefé awef éaweéfjéaw eflasdlf jéajewf";
       case 2:
         return "dsa";
       case 3:
@@ -87,7 +87,7 @@ const MapPage = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xl className="me-5">
             <p>{getDesc()}</p>
           </Col>
           <Col className="p-0">

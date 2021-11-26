@@ -5,12 +5,12 @@ import Container from "react-bootstrap/Container";
 import illusion from "../images/illusion.gif";
 
 const LoadLang = () => {
-  const randInt = Math.random() * 10000;
+  const randInt = Math.random() * 6000;
 
   function dsaasd() {
     setTimeout(
       () => window.open(process.env.WEB_URL + "hu", "_self"),
-      randInt + 5000
+      randInt + 3000
     );
     return "";
   }
