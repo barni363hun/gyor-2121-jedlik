@@ -11,7 +11,7 @@ const MapPage = () => {
   const [place, setPlace] = useState(1);
 
   function nextPlace() {
-    if (place < 6) {
+    if (place < 7) {
       setPlace(place + 1);
     } else {
       setPlace(1);
@@ -39,6 +39,8 @@ const MapPage = () => {
         return "A side view of Móricz Zsigmond quay";
       case 6:
         return "Matias hotel and the Baross street at night";
+      case 7:
+        return "The beautiful Jedlik education center";
       default:
         return "A relaxing walk on the riverside";
     }
@@ -56,6 +58,8 @@ const MapPage = () => {
       case 5:
         return "dsa";
       case 6:
+        return "dsa";
+      case 7:
         return "dsa";
       default:
         return "something";
@@ -87,7 +91,7 @@ const MapPage = () => {
           </Col>
         </Row>
         <Row>
-          <Col md="auto" className="me-5">
+          <Col xl className="me-5">
             <p>{getDesc()}</p>
           </Col>
           <Col className="p-0">
@@ -169,6 +173,13 @@ const MapPage = () => {
                 placeholder="blurred"
               ></StaticImage>
             </a>
+            <a target="_blank" href={process.env.WEB_URL + ""}>
+              <StaticImage
+                src="../../images/CityImg/Pic7.jpg"
+                className={getDisp(7) + " CityImg"}
+                placeholder="blurred"
+              ></StaticImage>
+            </a>
           </Col>
           <Col className="p-0">
             <StaticImage
@@ -199,6 +210,11 @@ const MapPage = () => {
             <StaticImage
               src="../../images/MPic6.png"
               className={getDisp(6) + " CityMap"}
+              placeholder="blurred"
+            ></StaticImage>
+            <StaticImage
+              src="../../images/MPic7.png"
+              className={getDisp(7) + " CityMap"}
               placeholder="blurred"
             ></StaticImage>
           </Col>
