@@ -31,6 +31,9 @@ export default function NavBar() {
               <Nav.Link className="myMenuPoint">
                 <Link to="/map">Map</Link>
               </Nav.Link>
+              <Nav.Link className="myMenuPoint">
+                <Link to="/time_capsule">Time Capsule</Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown

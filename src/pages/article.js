@@ -63,11 +63,11 @@ const ArticlePage = () => {
             the 5th most interesting city in Central Europe, currently holding
             923 tourist credits (TC) for all ages.
           </p>
-          <Row>
-            <video controls>
-              <source src={gyor2121promo} type="video/mp4" />
-            </video>
-          </Row>
+        </Row>
+        <Row>
+          <video controls>
+            <source src={gyor2121promo} type="video/mp4" />
+          </video>
         </Row>
       </Container>
     </Layout>

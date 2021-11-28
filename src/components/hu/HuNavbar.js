@@ -31,6 +31,9 @@ export default function HuNavBar() {
               <Nav.Link className="myMenuPoint">
                 <Link to="/hu/map">Térkép</Link>
               </Nav.Link>
+              <Nav.Link className="myMenuPoint">
+                <Link to="/hu/time_capsule">Időkapszula</Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown
