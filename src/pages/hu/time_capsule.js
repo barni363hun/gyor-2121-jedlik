@@ -153,16 +153,6 @@ const ArticlePage = () => {
               ></iframe>
             </div>
           </Col>
-          <Col md={6}>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                src="https://drive.google.com/file/d/1YUPmcXHMsOgUISw5q31QnJr8r6KiFqlq/preview"
-                width="640"
-                height="480"
-                allow="autoplay"
-              ></iframe>
-            </div>
-          </Col>
 
           <Col md={6}>
             <div class="embed-responsive embed-responsive-16by9">
