@@ -6,55 +6,55 @@ settings:
 
 dependencies:
   bootstrap:
-    specifier: ^5.1.3
+    specifier: ^5.3.2
     version: 5.3.2(@popperjs/core@2.11.8)
   gatsby:
-    specifier: ^4.2.0
+    specifier: ^4.25.7
     version: 4.25.7(babel-eslint@10.1.0)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2)
   gatsby-plugin-google-analytics:
-    specifier: ^4.2.0
+    specifier: ^4.25.0
     version: 4.25.0(gatsby@4.25.7)(react-dom@17.0.2)(react@17.0.2)
   gatsby-plugin-image:
-    specifier: ^2.2.0
+    specifier: ^2.25.0
     version: 2.25.0(@babel/core@7.23.2)(gatsby-plugin-sharp@4.25.1)(gatsby-source-filesystem@4.25.0)(gatsby@4.25.7)(graphql@15.8.0)(react-dom@17.0.2)(react@17.0.2)
   gatsby-plugin-manifest:
-    specifier: ^4.2.0
+    specifier: ^4.25.0
     version: 4.25.0(gatsby@4.25.7)(graphql@15.8.0)
   gatsby-plugin-react-helmet:
-    specifier: ^5.2.0
+    specifier: ^5.25.0
     version: 5.25.0(gatsby@4.25.7)(react-helmet@6.1.0)
   gatsby-plugin-sass:
-    specifier: ^5.2.0
+    specifier: ^5.25.0
     version: 5.25.0(gatsby@4.25.7)(sass@1.69.5)(webpack@5.89.0)
   gatsby-plugin-sharp:
-    specifier: ^4.2.0
+    specifier: ^4.25.1
     version: 4.25.1(gatsby@4.25.7)(graphql@15.8.0)
   gatsby-plugin-sitemap:
-    specifier: ^5.2.0
+    specifier: ^5.25.0
     version: 5.25.0(gatsby@4.25.7)(react-dom@17.0.2)(react@17.0.2)
   gatsby-source-filesystem:
-    specifier: ^4.2.0
+    specifier: ^4.25.0
     version: 4.25.0(gatsby@4.25.7)
   gatsby-transformer-sharp:
-    specifier: ^4.2.0
+    specifier: ^4.25.0
     version: 4.25.0(gatsby-plugin-sharp@4.25.1)(gatsby@4.25.7)(graphql@15.8.0)
   react:
-    specifier: ^17.0.1
+    specifier: ^17.0.2
     version: 17.0.2
   react-bootstrap:
-    specifier: ^2.0.2
+    specifier: ^2.9.1
     version: 2.9.1(react-dom@17.0.2)(react@17.0.2)
   react-bootstrap-icons:
-    specifier: ^1.6.1
+    specifier: ^1.10.3
     version: 1.10.3(react@17.0.2)
   react-dom:
-    specifier: ^17.0.1
+    specifier: ^17.0.2
     version: 17.0.2(react@17.0.2)
   react-helmet:
     specifier: ^6.1.0
     version: 6.1.0(react@17.0.2)
   sass:
-    specifier: ^1.43.4
+    specifier: ^1.69.5
     version: 1.69.5
 
 packages:
